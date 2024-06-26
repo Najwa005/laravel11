@@ -3,7 +3,7 @@
     <a href="welcome" class="brand-link">
         <img src="{{ asset ('dist/img/logopoliban.png') }}" alt="Logo" class="brand-image img-circle elevation-3"
             style="opacity: .8">
-        <span class="brand-text font-weight-light">Poliban</span>
+        <h3><span class="brand-text font-weight-light">POLIBAN</span></h3>
     </a>
 
     <!-- Sidebar -->

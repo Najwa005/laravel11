@@ -13,12 +13,10 @@ return new class extends Migration
     {
         Schema::create('mahasiswa', function (Blueprint $table) {
             $table->string('nim')->primary();
-            $table->string('id');
             $table->string('nama');
             $table->string('no_hp');
             $table->string('alamat');
             $table->string('foto');
-            $table->string('password');
             $table->foreignId('prodi_id')
             ->constrained('prodi')
             ->onUpdate('cascade')
